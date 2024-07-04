@@ -429,7 +429,7 @@ header
   box-shadow: 1px 25px 100px 0px rgba(13, 93, 254, 0.20);
   border-radius: 40px;
   min-height: 80px;
-  background: transparent;
+  background: #fff;
   display: flex; /* Centering the navbar */
   justify-content: center; /* Centering the navbar */
 }
@@ -569,7 +569,7 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-  color: #ffffff;
+  color: #1e1e1e;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -684,12 +684,12 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(180deg, rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0) 0%, rgba(13.000000175088644, 93.00000205636024, 254.00000005960464, 0.5) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
-  height: 140vh;
+  height: 120vh;
 }
-
 
 .welcome-area .header-text {
   position: absolute;
@@ -1984,6 +1984,9 @@ preloader
   }
 }
 
+.logo {
+  animation: wave 3s infinite;
+}
 
 @media (max-width: 767px) {
   .tools-used img {
@@ -2011,106 +2014,3 @@ preloader
       margin-left: 0;
   }
 }
-
-#services .text-box {
-  padding: 20px;
-  background-color: #fff;
-  border: 2px solid #40e0d0;
-  border-radius: 8px;
-  width: 400px; /* Adjust this value as needed */
-  height: 250px; /* Adjust this value as needed */
-}
-
-#services .text-box h2 {
-  font-size: 40px; /* Adjusted for better fit */
-  margin-bottom: 10px; /* Adjusted for better fit */
-  color: #333;
-}
-
-
-#services .text-box p {
-  font-size: 1rem;
-  color: #333;
-}
-
-#services .image-box {
-  text-align: center;
-}
-
-#services .image-box img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-
-
-
-
-
-
-#service .text-box {
-  padding: 20px;
-  background-color: transparent;
-  border: 2px solid rgb(84, 82, 88); /* Teal-like border color */
-  border-radius: 8px;
-  width: 400px; /* Adjust this value as needed */
-  height: 250px; /* Adjust this value as needed */
-}
-
-#service .text-box h2 {
-  font-size: 40px; /* Adjusted for better fit */
-  margin-bottom: 10px; /* Adjusted for better fit */
-  color: #40e0d0; /* Adjusted to a deep sky blue */
-}
-
-#service .text-box p {
-  font-size: 1rem;
-  color: #8b8c8d; /* Adjusted to match the h2 element */
-}
-
-#service .image-box {
-  text-align: center;
-}
-
-#service .image-box img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-
-
-
-#servicess .text-box {
-  padding: 20px;
-  background-color: #fff;
-  border: 2px solid #40e0d0;
-  border-radius: 8px;
-  width: 400px; /* Adjust this value as needed */
-  height: 250px; /* Adjust this value as needed */
-}
-
-#servicess .text-box h2 {
-  font-size: 40px; /* Adjusted for better fit */
-  margin-bottom: 10px; /* Adjusted for better fit */
-  color: #333;
-}
-
-
-#servicess .text-box p {
-  font-size: 1rem;
-  color: #333;
-}
-
-#servicess .image-box {
-  text-align: center;
-}
-
-#servicess .image-box img {
-  width: 70%;
-  height: auto;
-  border-radius: 8px;
-  max-height: 400px;
-}
-
