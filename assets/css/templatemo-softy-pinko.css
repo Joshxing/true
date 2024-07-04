@@ -684,7 +684,6 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/assets/images/Hero\ Section\ BG\ 2.png"); /* Replace with the path to your image */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
